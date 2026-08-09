@@ -7,3 +7,9 @@ jobs:
       node-version: '20'
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  test-composite-action:
+     runs-on: ubuntu:latest
+     steps:
+        - uses: kk-security/lab-actions@main
+          with:
+           environment: 'staging'
