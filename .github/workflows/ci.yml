@@ -13,4 +13,3 @@ jobs:
         - uses: kk-security/lab-actions@main
           with:
            environment: 'staging'
-        - uses: some-random/action@v2
