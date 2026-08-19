@@ -18,11 +18,13 @@
     "express": "^4.18.2",
     "mocha-junit-reporter": "^2.2.1",
     "mongoose": "6.13.10",
-    "nyc": "^15.1.0"
+    "nyc": "^18.0.0"
   },
   "devDependencies": {
     "chai": "*",
     "chai-http": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "mongodb-memory-server": "^11.2.0",
+    "supertest": "^7.2.2"
   }
 }
