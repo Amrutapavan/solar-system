@@ -72,7 +72,6 @@ jobs:
         run: |
           kubectl apply -f kubernetes/development/deployment.yaml
           kubectl apply -f kubernetes/development/service.yaml
- 
 
       - name: Push Docker Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/solar-system:latest
